@@ -43,7 +43,7 @@ if shared.VapeExecuted then
 else
 	shared.VapeExecuted = true
 end
-
+--
 if isfolder(customdir:gsub("/", "")) == false then
 	makefolder(customdir:gsub("/", ""))
 end
